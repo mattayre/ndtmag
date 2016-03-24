@@ -6,3 +6,8 @@
   overflow: hidden;
   display: block; 
 }
+@media (max-width: 768px) {
+ .parallax {
+  height: 320px;
+  }
+}
