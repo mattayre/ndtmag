@@ -3347,7 +3347,7 @@ input.ct-red + span + label + span.switch-right {
   width: 100%;
   height: 100%;
   text-align: center;
-  opacity: 1;
+  opacity: 0;
   filter: alpha(opacity=0);
 }
 .card .filter .btn {
