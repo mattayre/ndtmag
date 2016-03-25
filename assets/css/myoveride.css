@@ -10,4 +10,7 @@
  .parallax {
   height: 320px;
   }
+  .section-title{
+  	display: none;
+  }
 }
