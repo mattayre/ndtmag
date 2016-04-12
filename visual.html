@@ -414,7 +414,7 @@ R
        var parallax = function() {
             var current_scroll = $(this).scrollTop();
             
-            oVal = ($(window).scrollTop() / 3); 
+            oVal = -($(window).scrollTop() / 3); 
             big_image.css('top',oVal);
         };
 
