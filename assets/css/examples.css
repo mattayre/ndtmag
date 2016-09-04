@@ -48,8 +48,9 @@
   top: 37%;
   position: absolute;
   text-align: center;
-  width: 100%;
+  width: 70%;
   z-index: 2;
+   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .parallax .small-info h3 {
@@ -86,7 +87,7 @@
   height: 100%;
   display: block;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.66);
+  background-color: rgba(0, 0, 0, 0);
   content: "";
 }
 
@@ -114,6 +115,22 @@
     text-shadow: 0 0 10px black;
     padding: 5px;
     font-size: 20px !important;
+  }
+  .parallax .small-info h1{
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .parallax .small-info h1{
+    font-size: 30px;
+  }
+  .parallax .parallax-image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  .navbar-brand {
+    font-size: 10px;
   }
 }
 .about-us .team-presentation {
